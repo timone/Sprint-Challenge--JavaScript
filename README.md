@@ -30,31 +30,49 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+[answer] The biggest difference between .forEach and .map is that forEach iterate over a list of data, in turn pass an item and index us for use. 
+
 2. What is the difference between a function and a method?
+
+[answer] Function is a set of code that does task in JavaScript.
+Method is a function which is used as a property applied to Object. A method is implicityly passed on the object on which it was called. 
 
 3. What is closure?
 
+[answer] Closure gives you access to an outer function's scope from an inner function. 
+
 4. Describe the four rules of the 'this' keyword.
 
+[answer] 
+    1. Is the function called by new?
+    2. Is the function called by call(), apply(), or bind()?
+    3. Is the function called as a method, ie: obj.func()?
+    4. Is the function called in the global scope?
+
+If strict mode is enabled, return undefined.
+Otherwise, return the global object, ie: window.
+
 5. Why do we need super() in an extended class?
+
+[answer] The super() keyword in JS is used in order to call the methods of parent class. This is often used within a constructor function to call the parent constructor function. 
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 
 
